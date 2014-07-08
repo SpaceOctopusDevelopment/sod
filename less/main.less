@@ -7,6 +7,8 @@
 @black: #272822;
 @white: #f4f4f4;
 @site-width: 1280px;
+@trans-black: rgba(0,0,0,0.5);
+@font-size: 2rem;
 
 .center-margin {margin: 0 auto}; 
 .site-width {max-width: @site-width;}
@@ -25,7 +27,7 @@
 }
 
 body {
-    font: 18px Helvetica,Verdana,Arial,sans-serif;
+    font: @font-size Helvetica,Verdana,Arial,sans-serif;
     background:@black;
     color:@white;
 }
@@ -39,31 +41,3 @@ header, #content {
     .relative;
 }
 
-
-/*header*/
-h1,#logo {position:absolute;}
-#logo {top:100px;z-index:100;}
-h1 {top:130px;left:250px;font-size:45px;}
-h1 span {font-size:14px;top:50px;display:block;left:205px;position:absolute;}
-
-/*main content area*/
-#content {background:rgba(0,0,0,0.5);min-height:600px;border-radius:15px;top:200px;text-align:center;}
-#content form input[type="email"] {width:700px;padding:20px;height:75px;font-size:40px;border-radius:15px;}
-#content form input[type="submit"] {width:auto;padding:20px;height:auto;border-radius:15px;display:block; margin-top:20px;cursor:pointer;}
-h2 {font-size:1em;margin: 10px 0;}
-#contact_form {position:absolute;left:200px; top:100px;}
-
-/*hidden octopus*/
-#octopus_hidden{height:173px;position:absolute;top:350px;width:1024px;}
-#octopus_hidden div {width:200px;height:173px;position:absolute;}
-#oc2 {background:url(../img/oc2.png);left:40px}
-#oc3 {background:url(../img/oc3.png);left:380px}
-#oc4 {background:url(../img/oc4.png);left:750px;}
-
-/*footer*/
-footer p, footer h3 {position:absolute;bottom:10px;}
-footer h3 {right:10px;}
-footer p {left:10px;}
-
-/*message response*/
-#mess {background:rgba(0,0,0,0.5); padding:20px;text-align:center;border-bottom-right-radius:15px;border-bottom-left-radius:15px;}

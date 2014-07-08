@@ -1,0 +1,40 @@
+/**
+ * Main styles for space octopus dev
+ * @rdarling
+ *
+ * */
+.center-margin {
+  margin: 0 auto;
+}
+.site-width {
+  max-width: 1280px;
+}
+.hidden {
+  display: none;
+}
+.relative {
+  position: relative;
+}
+.site-center {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body {
+  font: 18px Helvetica, Verdana, Arial, sans-serif;
+  background: #272822;
+  color: #f4f4f4;
+}
+#pagewrap {
+  margin: 0 auto;
+  max-width: 1280px;
+  position: relative;
+}
+header,
+#content {
+  position: relative;
+}
