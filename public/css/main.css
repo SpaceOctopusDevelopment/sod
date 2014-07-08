@@ -15,6 +15,18 @@
 .relative {
   position: relative;
 }
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.brick {
+  clear: both;
+}
+.text-center {
+  text-align: center;
+}
 .site-center {
   margin: 0 auto;
   max-width: 1280px;
@@ -25,7 +37,7 @@
   border: 0;
 }
 body {
-  font: 18px Helvetica, Verdana, Arial, sans-serif;
+  font: 2rem Helvetica, Verdana, Arial, sans-serif;
   background: #272822;
   color: #f4f4f4;
 }
@@ -37,4 +49,7 @@ body {
 header,
 #content {
   position: relative;
+}
+main .row {
+  padding: 10rem;
 }

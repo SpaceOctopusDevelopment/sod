@@ -1,30 +1,37 @@
 <!doctype html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Space Octopus Development</title>
-    <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="./public/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <header>
-        <img src="" alt="Space Octopus" />
-        <h1>Space Octopus Development</h1>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <img src="" alt="Space Octopus" />    
+            </div>
+            <div class="col-md-4">
+                <h1>Space Octopus Development</h1>    
+            </div>            
+        </div>        
     </header>
-    <main>
-        <section>
-            <h2>Quality, Custom Web Development</h2>
+    <main class="container-fluid site-center">
+        <section class="row">
+            <h2 class="text-center">Quality, Custom Web Development</h2>
         </section>
-        <div id="about">
-            <h2>About</h2>
-            <p>We build affordable, agile, custom applications that meet our clients needs.</p>
+        <div id="about" class="row">
+            <h2 class="text-center">About</h2>
+            <p class="text-center">We build affordable, agile, custom applications that meet our clients needs.</p>
         </div>
-        <div id="contact">
-            <h2>Contact</h2>
-            <p>We are excited to get started on your project.</p>
-            <a href="mailto:contact@spaceoctopusdevelopment.com">contact@spaceoctopusdevelopment.com</a>
+        <div id="contact" class="row">
+            <h2 class="text-center">Contact</h2>
+            <p class="text-center">We are excited to get started on your project.</p>
+            <p class="text-center"><a href="mailto:contact@spaceoctopusdevelopment.com">contact@spaceoctopusdevelopment.com</a></p>
         </div>
     </main>
-    <footer>
+    <footer class="container-fluid">
         &copy; Space Octopus Development
     </footer>
 </body>
