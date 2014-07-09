@@ -8,6 +8,7 @@
 @white: #f4f4f4;
 @site-width: 1280px;
 @trans-black: rgba(0,0,0,0.5);
+@trans-white: rgba(255,255,255,0.8);
 @font-size: 2rem;
 
 .center-margin {margin: 0 auto}; 
@@ -36,15 +37,31 @@ body {
     color:@white;
 }
 
-#pagewrap {
-    .site-center;
-    .relative;
+header {
+    background: @white;
+    color: @black;
 }
 
-header, #content {
-    .relative;
+#logo {
+    max-width: 100px;
+    margin:1rem;
 }
+
 
 main .row {
     padding: 10rem;
+}
+
+#main {
+    background: url(/img/star2bg.jpg) no-repeat left top fixed !important;
+    color: @trans-white;
+}
+
+#contact {
+    background: @white;
+    color: @black;
+}
+
+footer {
+    padding: 5rem;
 }
