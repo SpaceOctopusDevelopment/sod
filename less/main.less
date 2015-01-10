@@ -6,10 +6,11 @@
 
 @black: #272822;
 @white: #f4f4f4;
+@pink: #D22E8F;
 @site-width: 1280px;
 @trans-black: rgba(0,0,0,0.5);
 @trans-white: rgba(255,255,255,0.8);
-@font-size: 2rem;
+@font-size: 4rem;
 
 .center-margin {margin: 0 auto}; 
 .site-width {max-width: @site-width;}
@@ -42,19 +43,41 @@ header {
     color: @black;
 }
 
+h1, h2 {
+    font-size:6rem;
+}
+
 #logo {
     max-width: 100px;
-    margin:1rem;
+    margin:3rem;
+    background:@pink;
+    padding:1rem;
 }
 
 
 main .row {
-    padding: 10rem;
+    padding: 20rem 10rem;
 }
 
 #main {
     background: url(/img/star2bg.jpg) no-repeat left top fixed !important;
     color: @trans-white;
+}
+
+.space-bg {
+    background: url(/img/orion-nebula-space-galaxy.jpg) no-repeat left top fixed !important;
+}
+
+.row.jobs {
+    background: @pink;
+}
+
+.eagle-bg {
+    background: url(/img/eagle.jpg) no-repeat left top fixed !important;
+}
+
+.oct-bg {
+    background: url(/img/oct.jpg) no-repeat left top fixed !important;
 }
 
 #contact {
